@@ -152,54 +152,7 @@
         margin-bottom: 50px;
     }
 
-<<<<<<< HEAD
-    /* /////////////////////////////////////////////////////////////// */
-    
-    .Blog {
-        background-image: url(imgs/blog.jpg);
-        /* background-attachment: fixed; */
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        margin-bottom: 100px;
-    }
 
-    .blog-main {
-        padding: 70px 0;
-        text-align: center;
-    }
-
-    .blog-main h2 {
-        font-family: "Sansita Swashed", system-ui;
-        font-size: 40px;
-        color: #933C24;
-        max-width: 300px;
-        margin: 0 auto;
-        text-align: center;
-        /* animation: move 1s ease forwards alternate-reverse; */
-    }
-
-    .blog-main p {
-        margin: 0 auto;
-        color: #5D5D5D;
-        max-width: 230px;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 18px;
-        /* animation: move 1.2s ease forwards alternate-reverse; */
-    }
-
-    .blog-main a {
-        background-color: #933C24;
-        color: white;
-        padding: 10px 40px;
-        border-radius: 8px;
-        /* animation: move 1.4s ease forwards alternate-reverse; */
-    }
-
-    /* /////////////////////////////////////////////////////////////// */
-=======
 
     /* ////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -301,4 +254,51 @@
         margin-bottom: 100px;
     }
  /* //////////////////////////////////////////////////////////////////////////////////// */
->>>>>>> 47071022cd861fec7896e6a296d27fe4eddf1409
+
+    /* /////////////////////////////////////////////////////////////// */
+    
+    .Blog {
+        background-image: url(imgs/blog.jpg);
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 100px;
+    }
+
+    .blog-main {
+        padding: 70px 0;
+        text-align: center;
+    }
+
+    .blog-main h2 {
+        font-family: "Sansita Swashed", system-ui;
+        font-size: 40px;
+        color: #933C24;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        /* animation: move 1s ease forwards alternate-reverse; */
+    }
+
+    .blog-main p {
+        margin: 0 auto;
+        color: #5D5D5D;
+        max-width: 230px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        /* animation: move 1.2s ease forwards alternate-reverse; */
+    }
+
+    .blog-main a {
+        background-color: #933C24;
+        color: white;
+        padding: 10px 40px;
+        border-radius: 8px;
+        /* animation: move 1.4s ease forwards alternate-reverse; */
+    }
+
+    /* /////////////////////////////////////////////////////////////// */
+
