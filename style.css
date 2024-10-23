@@ -151,3 +151,105 @@
     .banner-btn {
         margin-bottom: 50px;
     }
+
+
+    /* ////////////////////////////////////////////////////////////////////////////////////// */
+
+    
+    .products-main h2 {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 60px;
+        font-family: "Sansita Swashed", system-ui;
+        /* animation: move 1.1s ease forwards alternate-reverse; */
+    }
+
+    .products-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .products-card {
+        background-image: url(imgs/Rectangle\ 69.png);
+        margin-left: 20px;
+        padding: 30px;
+        border-radius: 4px;
+        width: 100%;
+        background-repeat: no-repeat;
+        max-width: 350px;
+    }
+    .ani-1{
+        /* animation: move2 1.3s ease forwards alternate-reverse; */
+    }
+
+    @keyframes move2 {
+        from {
+            transform: translateX(0px);
+            filter: blur(0px);
+        }
+    
+        to {
+            transform: translateX(-800px);
+            filter: blur(100px);
+        }
+    }
+    .ani-2{
+        /* animation: move3 1.5s ease forwards alternate-reverse ; */
+    }
+    @keyframes move3 {
+        from {
+            transform: translateX(0px);
+            filter: blur(0px);
+        }
+    
+        to {
+            transform: translateX(800px);
+            filter: blur(100px);
+        }
+    }
+    .products-card p {
+        color: white;
+        font-weight: 700;
+    }
+
+    .products-center {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .products-card h3 {
+        color: white;
+        max-width: 150px;
+    }
+
+    .products-center a {
+        padding: 8px 20px;
+        background-color: #933C24;
+        color: white;
+        border-radius: 4px;
+    }
+
+    .products-card p {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .products-card img {
+        margin: 0 auto;
+        display: flex;
+        margin-bottom: 20px;
+        transition: all 0.3s ease-in;
+    }
+
+    .products-card img:hover {
+        transform: scale(.9) rotate(8deg);
+    }
+
+    .Products {
+        margin-bottom: 100px;
+    }
+ /* //////////////////////////////////////////////////////////////////////////////////// */
