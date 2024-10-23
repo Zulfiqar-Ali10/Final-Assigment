@@ -302,3 +302,67 @@
 
     /* /////////////////////////////////////////////////////////////// */
 
+    
+    .Explore-main h2 {
+        font-family: "Sansita Swashed", system-ui;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 25px;
+        /* animation: move 1.3s ease forwards alternate-reverse; */
+    }
+
+    .explore-nav nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+
+    }
+
+    .explore-nav nav ul li a {
+        margin-left: 20px;
+        font-weight: 600;
+        color: #5D5D5D;
+        font-size: 20px;
+        transition: all 0.9s ease-in-out;
+        
+    }
+    .explore-nav nav ul li a:hover{
+        border-bottom: 2px solid #933C24;
+    }
+    .explore-nav .cake{
+        border-bottom: 2px solid #933C24;
+    }
+    .explore-imgs {
+        display: flex;
+       align-items: center;
+       justify-content: center;
+        transition: all 0.6s ease-in;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .explore-imgs img{
+        transition: all 0.6s ease-in-out;
+        filter: grayscale(0);
+    }
+
+    .parent-explore{
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .parent-explore img:hover{
+   
+        filter: grayscale(.4);
+        transform: scale(1.2) rotate(4deg);
+    }
+
+    .Explore {
+        margin-bottom: 100px;
+    }
+
+
+    /* /////////////////////////////////////////////////////////////// */
+
