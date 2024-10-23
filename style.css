@@ -502,4 +502,16 @@
          /* animation: move 1.4s ease forwards alternate-reverse; */
      }
  
- 
+     #scroll-to-top-btn{
+        padding: 10px 20px;
+        background-color: #933C24;
+        color: white;
+        border-radius: 4px;
+        border: none;
+        position: fixed;
+        bottom: 30px;
+        right: 20px;
+        cursor: pointer;
+        display: none;
+
+    } 
