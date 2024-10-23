@@ -515,3 +515,64 @@
         display: none;
 
     } 
+
+    /* //////////////////////////////////////////////////// */
+
+    
+   .contact-main h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+   }
+   #result{
+    /* color: linear-gradient(90deg, rgb(42, 6, 150) 53%, rgb(112, 10, 126) 100%);; */
+    background: -webkit-linear-gradient(#e60c0c, #0014f5c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+   }
+   #submit{
+    background-color: #933C24;
+    width: 10%;
+    margin: 20px auto;
+    display: flex;
+    padding: 15px 20px;
+    color: white;
+   }
+   .contact-main input{
+    outline: none;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px 0 20px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+   }
+   .contact-main textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    outline: none;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    padding: 60px 0 60px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+   }
+   .contact-input a{
+    font-size: 20px;
+    color: white;
+    background-color: #933C24;
+    padding: 10px 30px;
+    border-radius: 8px;
+   }
+   .contact-a{
+    text-align: center;
+    margin-top: 50px;
+   }
+.Contact{
+    margin: 100px 0;
+}
