@@ -35,7 +35,7 @@
 }
 
 .header-banner-main {
-    background-image: url(imgs/banner2.jpg);
+    background-image: url(banner2.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@
     }
 
     .products-card {
-        background-image: url(imgs/Rectangle\ 69.png);
+        background-image: url(Rectangle\ 69.png);
         margin-left: 20px;
         padding: 30px;
         border-radius: 4px;
@@ -258,7 +258,7 @@
     /* /////////////////////////////////////////////////////////////// */
     
     .Blog {
-        background-image: url(imgs/blog.jpg);
+        background-image: url(blog.jpg);
         /* background-attachment: fixed; */
         background-repeat: no-repeat;
         background-size: cover;
@@ -393,7 +393,7 @@
  
      /* ////////////////////////////////////////////////////////// */
      footer {
-         background-image: url(imgs/Rectangle\ 75.png);
+         background-image: url(Rectangle\ 75.png);
          padding-top: 50px;
          padding-bottom: 50px;
      }
